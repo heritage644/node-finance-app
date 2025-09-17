@@ -1,16 +1,7 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +11,135 @@
 }
 
 body {
-  background: var(--background);
+  background: #F8F5F0;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@theme {
+  --color-pink:#FF60E6;
+   --color-peach:#F8F5F0;
+     --color-torqoise:#42a5f5;
+
+}
+
+@utility no-scroll {
+  @apply overflow-hidden;
+}
+#topSection{
+  background: url("/backgrounds.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 220px;
+  background-position: center;
+
+}
+#subTopSection{
+  background: url("/newbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 330px;
+  background-position: center;
+max-height: 1500px;
+}
+#heroSection{
+  background: url("/afterhero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 230px;
+  background-position: center;
+max-height: 1500px;
+}
+
+
+
+@media (min-width: 442px) {
+ #topSection { height: 300px; }  /* tablet */
+  #subTopSection {height:400px}
+  #heroSection { height:270px }
+
+}
+@media (min-width: 563px) {
+  #heroSection { height:340px }
+}
+
+@media (min-width: 626px) {
+ #topSection { height: 340px; }  /* tablet */
+  #subTopSection {height:500px}
+   #heroSection { height:370px }
+}
+
+@media (min-width: 721px) {
+ #topSection { height: 340px; }  /* tablet */
+  #subTopSection {height:500px}
+   #heroSection { height:420px }
+}
+@media (min-width: 830px) {
+ #topSection { height: 470px; }  /* tablet */
+  #subTopSection {height:500px}
+   #heroSection { height:530px }
+}
+@media (min-width: 1008px) {
+ #topSection { height: 550px; }  /* tablet */
+  #subTopSection {height:500px}
+}
+
+
+@media (min-width: 1024px) {
+ #topSection { height: 600px; }  /* desktop */
+  #subTopSection {height:800px}
+   #heroSection { height:600px }
+}
+
+@media (min-width: 1100px) {
+ #topSection { height: 930px; }  /* desktop */
+  #subTopSection {height:930px}
+   #heroSection { height:800px }
+}
+@media (min-width: 1700px) {
+ #topSection { height: 1050px }  /* desktop */
+   #subTopSection {height:1100px}
+    #heroSection { height:980px }
+
+}
+
+#block{
+  display: inline-block;
+  vertical-align: middle;
+}
+ input{
+ 
+  flex: 1;
+ padding-left: 20px;
+ }
+ #button{
+background: none;
+border: none;
+background:#FF60E6;
+border-radius: 20px;
+padding: 5px 20px;
+z-index: 0;
+position: relative;
+margin-left: -70px;
+ }
+
+#slong{
+
+  font-weight: bold;
+  background: linear-gradient(to right, #42a5f5, #ab47bc, #FF60E6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: sweep 6s linear infinite;
+}
+
+
+
+@keyframes sweep {
+  0% { background-position: 200% center; }
+  100% { background-position: 0 center; }
+}
+
+
