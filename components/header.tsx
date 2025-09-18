@@ -26,14 +26,14 @@ return()=>{
    
     return (
    
-    <header className=" z-[999] sm:backdrop-blur-sm  sm:shadow-md sm:bg-translucent  sticky p-0 z-{1120} fixed top-0 w-full flex items-center justify-between 
+    <header className=" z-[999] sm:backdrop-blur-sm max-w-full sm:shadow-md sm:bg-translucent  sticky p-0 z-{1120} fixed top-0 w-full flex items-center justify-between 
     sm: sm:px-7
     lg:px-20
     xl:px-50
    
     "  >
       <section className="ml-2 z-[100]">  <div className="flex px-3 py-3 backdrop-blur-sm  shadow-md bg-translucent sm:bg-transparent sm:shadow-none sm:backdrop-blur-none space-x-2 justify-end items-center font-bold lg:text-[20px] rounded-xl  ">
-           <div className="w-10"> <img src="/logo.png" alt=".logo" width={30} height={30}/></div>
+           <div className="w-10"> <img src="/fish.png" alt=".logo" width={30} height={30}/></div>
             <h1>The Creator</h1>
         </div>
 </section>

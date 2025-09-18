@@ -8,7 +8,7 @@ export default function Bottom(){
             <p className="w-70 md:w-full text-center">Hear from our customers from Top YouTube Channels</p>
         </div>
 
-        <div  className="pt-15 pl-5 font-bold flex flex-col space-y-5 md:w-200  lg:ml-30" >
+        <div  className="pt-15 pl-5 font-bold flex flex-col space-y-5 md:w-180  lg:ml-30" >
             <p className=" bg-pink w-fit rounded-lg p-5 md:text-[30px]  shadow-md shadow-torqoise transform 
           
            "   >

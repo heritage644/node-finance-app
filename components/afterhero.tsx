@@ -5,10 +5,10 @@ export default function afterHero(){
       <section className="pt-20 ">
           <section className="w-full flex flex-col items-center justify-center space-y-10 mb-10" id="heroSection">
             <div className="flex flex-col items-center w-100 text-center text-[13px] space-y-5 pt-20">
-                <h1 className="font-bold text-[20px] md:text-[40px] md:w-200">We do it for you. No more <br />
+                <h1 className="font-bold text-[20px] md:text-[40px] md:w-180">We do it for you. No more <br />
                 struggling to grow on <br />
                  any Platform</h1>
-                 <p className="font-bold md:text-[25px] md:w-200">Work with our expert strategists <br />
+                 <p className="font-bold md:text-[25px] md:w-180">Work with our expert strategists <br />
                writers, editors, and producers to create content <br />
                   that transforms your content </p>
 
