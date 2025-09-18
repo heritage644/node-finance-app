@@ -10,7 +10,9 @@
     
   }
 }
-
+html{
+ overflow-x: hidden;
+}
 body {
 
   background: #F8F5F0;

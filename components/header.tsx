@@ -26,7 +26,7 @@ return()=>{
    
     return (
    
-    <header className=" z-[999] sm:backdrop-blur-sm max-w-full sm:shadow-md sm:bg-translucent  sticky p-0 z-{1120} fixed top-0 w-full flex items-center justify-between 
+    <header className=" z-[999] sm:backdrop-blur-sm max-w-full sm:shadow-md sm:bg-translucent  sticky p-0 z-{1120} fixed top-3 left-0 w-full flex items-center justify-between 
     sm: sm:px-7
     lg:px-20
     xl:px-50
