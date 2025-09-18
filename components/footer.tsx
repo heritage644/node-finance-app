@@ -39,7 +39,7 @@ e.preventDefault()
             
         </div>
         <div>
-            <img src="/frame" alt="" />
+            <img src="/frame.png" alt="" />
             
         </div>
             </div>
