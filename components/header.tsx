@@ -33,13 +33,13 @@ return()=>{
    
     "  >
       <section className="ml-2 z-[100]">  <div className="flex px-3 py-3 backdrop-blur-sm  shadow-md bg-translucent sm:bg-transparent sm:shadow-none sm:backdrop-blur-none space-x-2 justify-end items-center font-bold lg:text-[20px] rounded-xl  ">
-            <img src="/logo.svg" alt=".logo" />
+           <div className="w-10"> <img src="/logo.svg" alt=".logo" width={30} height={30}/></div>
             <h1>The Creator</h1>
         </div>
 </section>
         <div className="sm:hidden pr-10  " >
            
-          <button className="shadow-md bg-translucent backdrop-blur-sm    flex flex-col justify-center items-center w-8 h-8 space-y-1 relative p-2  z-[9999] sm:hidden" onClick={clicker} >
+          <button className="shadow-md bg-translucent backdrop-blur-xl   flex flex-col justify-center items-center w-8 h-8 space-y-1 relative p-2  z-[9999] sm:hidden" onClick={clicker} >
   <span className={`block w-6 h-0.5 bg-pink dark:bg-white z-100 transition-transform ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`} ></span>
   <span className={`block w-6 h-0.5 bg-pink dark:bg-white transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
   <span className={`block w-6 h-0.5 bg-pink dark:bg-white transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
@@ -54,7 +54,7 @@ return()=>{
       className="space-y-12  z-[100] " >
         <Link 
          href="/" 
-          className="block text-[20px]   font-light text-gray-800 hover:text-gray-500 transition-colors duration-300 tracking-wide"
+          className="block text-[20px]   font-bold  text-gray-800 hover:text-gray-500 transition-colors duration-300 tracking-wide"
           onClick={() => setIsOpen(false)}
           data-aos="flip-left" data-aos-duration="1200"
         >
@@ -62,7 +62,7 @@ return()=>{
         </Link>
         <Link 
          href="/" 
-          className="block text-[20px]  font-light  text-gray-800  tracking-wide"
+          className="block text-[20px]  font-bold   text-gray-800  tracking-wide"
           onClick={() => setIsOpen(false)}
           data-aos="flip-left" data-aos-duration="1200"
         >
@@ -70,7 +70,7 @@ return()=>{
         </Link>
          <Link 
          href="/" 
-          className="block text-[20px]  font-light  text-gray-800  tracking-wide"
+          className="block text-[20px]  font-bold   text-gray-800  tracking-wide"
           onClick={() => setIsOpen(false)}
           data-aos="flip-left" data-aos-duration="1200"
         >
@@ -78,7 +78,7 @@ return()=>{
         </Link>
         <Link 
          href="/" 
-          className="block text-[20px]  font-light  text-gray-800  tracking-wide"
+          className="block text-[20px]  font-bold   text-gray-800  tracking-wide"
           onClick={() => setIsOpen(false)}
           data-aos="flip-left" data-aos-duration="1200"
         >
@@ -90,7 +90,7 @@ return()=>{
                whileTap={{scale:0.9}}
                transition={{type:"spring", stiffness:400, damping:17 }}
        
-          className="block text-[20px] bg-pink rounded-full pl-3 pr-3 font-light 
+          className="block text-[20px] bg-pink rounded-full pl-3 pr-3 font-bold  
           
            text-gray-800  tracking-wide"
           onClick={() => setIsOpen(false)}
