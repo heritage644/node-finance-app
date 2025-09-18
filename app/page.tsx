@@ -6,6 +6,8 @@ import SubTop from "@/components/subtop";
 import Hero from "@/components/hero-section";
 import Gallery from "@/components/gallery";
 import Bottom from "@/components/bottom";
+import Icons from "@/components/icons";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
    <>
@@ -18,6 +20,8 @@ export default function Home() {
    <Gallery/>
    <Bottom/>
    <Cards/>
+   <Icons/>
+   <Footer/>
   
  </div>
    </>

@@ -5,7 +5,7 @@ export default function Bottom(){
         
         <section >
  <div className="flex items-center justify-center pt-2 text-[11px} md:text-[16px] lg:text-[22px] ">
-            <p className="w-70 md:w-full text-center">Hear from our customers from Top YouTube Channel</p>
+            <p className="w-70 md:w-full text-center">Hear from our customers from Top YouTube Channels</p>
         </div>
 
         <div  className="pt-15 pl-5 font-bold flex flex-col space-y-5 md:w-200  lg:ml-30" >

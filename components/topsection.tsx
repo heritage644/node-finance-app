@@ -1,5 +1,10 @@
-export default function TopSection(){
+'use client'
 
+import { motion } from "framer-motion"
+export default function TopSection(){
+function clickerClick(e: React.FormEvent){
+e.preventDefault()
+}
     return(
         <>
         
@@ -15,7 +20,12 @@ export default function TopSection(){
              <div className=" flex items-center justify-center w-full mt-0">
               <form action="" className="flex w-80 items-center justify-center">
                 <input className="bg-white p-3 rounded-full  focus:outline-none focus:ring-2 focus:ring-pink-300" type="text" placeholder="okjohn644@gmail.com" />
-                <button  className="bg-pink pr-5 pl-5 rounded-full " id="button">join</button>
+                <motion.button 
+                  onClick={clickerClick}
+              whileHover={{scale:1.1}}
+               whileTap={{scale:0.9}}
+               transition={{type:"spring", stiffness:400, damping:17 }}
+                className="bg-pink pr-5 pl-5 rounded-full z-[-1] " id="button">join</motion.button>
               </form>
             </div>
             </section>
