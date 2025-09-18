@@ -10,14 +10,19 @@
     
   }
 }
-
+*{
+  outline: 1px solid red;
+}
+html{
+  overflow-x: hidden;
+}
 body {
 
   background: #F8F5F0;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  overflow-x: hidden;
+  
 }
 @theme {
   --color-pink:#FF60E6;
