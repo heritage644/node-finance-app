@@ -12,12 +12,12 @@ setIsOpen(prev=>!prev)
   }
     React.useEffect(()=>{
 if(isOpen) {
-  document.body.classList.add('no-scroll')
+  document.body.classList.add("no-scroll")
 }else{
-  document.body.classList.remove('no-scroll')
+  document.body.classList.remove("no-scroll")
 }
 return()=>{
-  document.body.classList.remove('no-scroll')
+  document.body.classList.remove("no-scroll")
 }
   },[isOpen])
    function clickerClick(e:React.FormEvent){
@@ -26,20 +26,20 @@ return()=>{
    
     return (
    
-    <header className=" z-[999] sm:backdrop-blur-sm max-w-full sm:shadow-md sm:bg-translucent  sticky p-0 z-{1120} top-0 w-full flex items-center justify-between 
+    <header className=" z-[999] sm:backdrop-blur-sm max-w-full sm:shadow-md sm:bg-translucent overflow-y-hidden sticky p-0 top-3  w-full flex items-center justify-between 
     sm: sm:px-7
     lg:px-20
     xl:px-50
    
     "  >
-      <section className="ml-5 z-[100] mt-2">  <div className="flex px-3 py-3 backdrop-blur-sm  shadow-md bg-translucent sm:bg-transparent sm:shadow-none sm:backdrop-blur-none space-x-2 justify-end items-center font-bold lg:text-[20px] rounded-xl  ">
+      <section className="pl-5 z-[100]  ">  <div className="flex px-3 py-3 backdrop-blur-sm  shadow-md bg-translucent sm:bg-transparent sm:shadow-none sm:backdrop-blur-none space-x-2 justify-end items-center font-bold lg:text-[20px] rounded-xl  ">
            <div className="w-10"> <img src="/fish.png" alt=".logo" width={30} height={30}/></div>
             <h1>The Creator</h1>
         </div>
 </section>
         <div className="sm:hidden pr-10  " >
            
-          <button className="shadow-md bg-translucent backdrop-blur-xl top-0 flex flex-col justify-center items-center w-8 h-8 space-y-1 relative p-2  z-[9999] sm:hidden" onClick={clicker} >
+          <button className="shadow-md bg-translucent backdrop-blur-xl top-0 flex flex-col justify-center items-center w-8 h-8 space-y-1 relative  z-[9999] sm:hidden" onClick={clicker} >
   <span className={`block w-6 h-0.5 bg-pink  z-100 transition-transform ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`} ></span>
   <span className={`block w-6 h-0.5 bg-pink  transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
   <span className={`block w-6 h-0.5 bg-pink  transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>

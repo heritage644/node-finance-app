@@ -2,7 +2,7 @@ export default function Icons (){
 
     return(
         <>
-        <section className=" flex mb-20 space-x-10 md:pl-10 md:mt-50 lg:justify-center pt-10 overflow-x-hidden" >
+        <section className=" flex mb-20 space-x-10 md:pl-10 md:mt-50 lg:justify-center pt-10 " >
             <div className="bg-pink rounded-xl w-fit  hidden md:flex flex-col py-10 ">
                <div className="w-90 ">
                  <img src="/icons.png" alt=".icons" />

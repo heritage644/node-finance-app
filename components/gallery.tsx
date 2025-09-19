@@ -37,7 +37,7 @@ export default function Gallery(){
 
         </section>
 
-        {/*section1*/}
+        {/*section2*/}
 
 
         <section className="flex justify-between pt-10 ">
@@ -46,7 +46,7 @@ export default function Gallery(){
             </div>
 
            
-                   <div className="w-140 mx-3 text-[13px] border-b pb-10 border-pink pt-50 lg:text-[22px] lg:ml-30 lg:w-150 text-start pr-10" >
+                   <div className="w-140 px-3 text-[13px] border-b pb-10 border-pink pt-50 lg:text-[22px] lg:ml-30 lg:w-150 text-start pr-10" >
                 <h1 className="font-bold  " data-aos="fade-up" data-aos-duration="1000">
                     2# Concept development:
                 </h1>
@@ -62,10 +62,10 @@ export default function Gallery(){
 
         </section>
         
-        {/*section1*/}
+        {/*section3*/}
 
 
-            <section className="flex justify-between pt-10 overflow-x-hidden ">
+            <section className="flex justify-between pt-10 ">
             <div className="w-130 mx-5 text-[13px]  lg:text-[22px] lg:ml-30 lg:w-150 text-start">
                 <h1 className="font-bold " data-aos="fade-up" data-aos-duration="1000">
                    3# Design and execution:
