@@ -3,8 +3,8 @@ export default function Bottom(){
     return(
         <>
         
-        <section >
- <div className="flex items-center justify-center pt-2 text-[11px} md:text-[16px] lg:text-[22px] ">
+        <section  >
+ <div className="flex items-center justify-center pt-2 text-[11px} md:text-[16px] lg:text-[22px] overflow-x-hidden ">
             <p className="w-70 md:w-full text-center">Hear from our customers from Top YouTube Channels</p>
         </div>
 

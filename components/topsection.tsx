@@ -8,7 +8,7 @@ e.preventDefault()
     return(
         <>
         
-       <section className="pt-20 " >
+       <section className="pt-20 overflow-x-hidden" >
          <section className="w-full flex flex-col items-center space-y-10 mb-10 " id="topSection">
          <div className="flex items-center w-full items-start justify-center  "> 
               <p className="text-center w-70 pt-2 pl-4 text-[30px] sm:text-[37px] sm:w-100 sm:pt-0 md:text-[44px]

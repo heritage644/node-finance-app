@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
    <>
- <div className="dark:text-black max-w-full overflow-x-hidden">
+ <div className="dark:text-black max-w-full ">
     <Header/>
     <TopSection/>
     <SubTop/>

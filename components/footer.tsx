@@ -7,7 +7,7 @@ export default function Footer (){
 e.preventDefault()
   }
   return(
-    <section className="mt-0-auto flex flex-col space-y-10 pb-10">
+    <section className="mt-0-auto flex flex-col space-y-10 pb-10 overflow-x-hidden">
         <div className="flex flex-col items-center space-y-3">
             <h1 className="font-bold text-[20px] text-center">
             We are waiting for you to contact us

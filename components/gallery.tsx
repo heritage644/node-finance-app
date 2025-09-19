@@ -65,7 +65,7 @@ export default function Gallery(){
         {/*section1*/}
 
 
-            <section className="flex justify-between pt-10 ">
+            <section className="flex justify-between pt-10 overflow-x-hidden ">
             <div className="w-130 mx-5 text-[13px]  lg:text-[22px] lg:ml-30 lg:w-150 text-start">
                 <h1 className="font-bold " data-aos="fade-up" data-aos-duration="1000">
                    3# Design and execution:
